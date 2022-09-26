@@ -1,8 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+
+@font-face {
+    font-family: "Cooper BT";
+    /* src: url(/CooperBoldItalicBT.ttf); */
+    src: url(/CooperBoldBT.ttf);
+}
+
+:root {
+    --main-color: #aa3f51;
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
-    /* background-image: url(/bg.png);
-    background-position: center;
-    background-size: cover; */
+    font-family: 'Playfair Display', serif;
+}
+
+
+.main_bg {
+    background: var(--main-color);
+}
+
+.theme_title {
+    font-family: "Cooper BT";
+}
+
+.theme_border {
+    border-color: var(--main-color);
 }
